@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Backyardschool/slope/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Backyardschool/slope/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!--- Hello there! I see that you are trying to see what is behind this website! It is not much. --->
+<!--- If you want to build your own website with GitHub you can open a issue on the github page for this website! --->
+<!--- Happy Hacking! - 3kh0--->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Slope</title>
+     <link rel="icon" sizes="192x192" href="https://i.ibb.co/J59P0h4/58097612.jpg">
+ <link rel="shortcut icon" href="https://i.ibb.co/J59P0h4/58097612.jpg" type="image/x-icon"/>
+ <link rel="apple-touch-icon" href="https://i.ibb.co/J59P0h4/58097612.jpg" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width">
+    <link href="./y8-studio/unity/config/TemplateData56/style.css" rel="stylesheet">
+    <link href="./y8-studio/unity/config/shared/style.css" rel="stylesheet">
+    <link href="./y8-studio/unity/config/shared/gamebreak/gamebreak.css" rel="stylesheet">
+    <script src="./y8-studio/unity/config/shared/lib.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/shared/browser_detector.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/shared/sound_enabler.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/shared/metrika.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/shared/gamebreak/gamebreak.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/TemplateData56/game.js" type="text/javascript"></script>
+    <script src="./y8-studio/unity/config/TemplateData56/UnityProgress.js"></script>
+    <script src="./y8-studio/unity/joll/slope/Build/UnityLoader.js"></script>
+  <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "./y8-studio/unity/joll/slope/Build/slope_27Sept.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script><link rel="canonical" href="https://www.y8.com/games/slope">
+</head>
+  <body>
+    <div id="container" class="container webgl-content">
+      <div id="gameContainer" style="width: 900px; height: 600px"></div>
+      <div class="footer">
+        <div class="unity disable"></div>
+        <div class="webgl enable"></div>
+        <h1 class="game-name">Slope</h1>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">Maximize</div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    Orginal game made by Y8, reproduced by 3kh0.
+    <a href="https://github.com/3kh0"> View me on GitHub</a><br>
+  </footer>
+</html>
